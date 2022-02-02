@@ -35,12 +35,12 @@ const waterMaterial = new THREE.ShaderMaterial({
     uniforms: {
         uTime: {value: 0 },
 
-        uBigWavesElevation: { value: 0.2 },
-        uBigWavesFrequency: { value: new THREE.Vector2(4, 1.5) },
-        uBigWavesSpeed: { value: 0.75 },
+        uBigWavesElevation: { value: 0.128 },
+        uBigWavesFrequency: { value: new THREE.Vector2(1.593, 0.665) },
+        uBigWavesSpeed: { value: 1.689 },
 
-        uSmallWavesElevation: { value: 0.15 },
-        uSmallWavesFrequency: { value: 3 },
+        uSmallWavesElevation: { value: 0.121 },
+        uSmallWavesFrequency: { value: 1.763 },
         uSmallWavesSpeed: { value: 0.2 },
         uSmallWavesIteration: { value: 4.0 },
 
